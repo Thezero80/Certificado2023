@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Certificado digital</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+        .certificado {
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(171, 167, 167);
+        }
+
+        .cabecera {
+            text-align: center;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .titulo {
+            font-size: 48px;
+            font-weight: bold;
+            align-items: flex-end;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .datos {
+            text-align: left;
+        }
+
+        .firma {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .firma-editable {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .logo {
+            width: 20%;
+            border-radius: 30px;
+            margin: auto;
+        }
+        .logo3 {
+            width: 20%;
+            margin: 20px 270px 20px 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="certificado">
+        <div class="cabecera">
+            <img src="logo2.png" alt="Logo de la organización" class="logo" />
+            <h1 class="titulo">CERTIFICADO</h1>
+            <img src="logo.png" alt="Logo de la organización" class="logo" />
+        </div>
+        <div class="datos">
+            <p>Este certificado se otorga a JUAN MANUEL RENGIFO FRETEL por haber completado el curso PROGRAMACIÓN BASICA.
+            </p>
+            <p>Fecha de emisión: 17/11/2023 | Hora de emisión: 17:30 PM</p>
+            <p>Emitido por: aws & Thezero Academy</p>
+        </div>
+        <div class="firma">
+            <img src="logo3.png" alt="Logo de la organización" class="logo3" />
+            <div>
+                <p>________________</p>
+                <p>Thezero Academy</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
